@@ -9,9 +9,10 @@ Una aplicación simple para el seguimiento de gastos, construida con React, Reac
 -----------------
 
 * [Características](#características)
-* [Instalación](#instalacion)
+* [Instalación](#instalación)
 * [Uso](#uso)
-* [Detalles Ténicos](#detalles-técnicos)
+* [Detalles Técnicos](#detalles-técnicos)
+* [Agradecimientos](#agradecimientos)
 * [Licencia](#licencia)
 
 **Características**
@@ -39,7 +40,7 @@ npm run dev
 
 Esto iniciará el servidor de desarrollo y abrirá la aplicación en tu navegador predeterminado.
 
-**Detalles Ténicos**
+**Detalles Técnicos**
 -------------------
 
 * Construida con React, React Hook Form y LocalStorage
@@ -50,10 +51,10 @@ Esto iniciará el servidor de desarrollo y abrirá la aplicación en tu navegado
 **Licencia**
 -------
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)para más detalles.
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
 
-**Acknowledgments**
+**Agradecimientos**
 ----------------
 
 * [React](https://reactjs.org/)

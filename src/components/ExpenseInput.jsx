@@ -8,8 +8,7 @@ export default function ExpenseInput({ onLocalStorageChange }) {
   const {
     register,
     handleSubmit,
-    reset,
-    //formState: { errors },
+    reset
   } = useForm({
     defaultValues: {
       description: "",
