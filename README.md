@@ -1,12 +1,72 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+**Mini Expense Tracker**
+====================
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Una aplicación simple para el seguimiento de gastos, construida con React, React Hook Form y LocalStorage.
 
-## Expanding the ESLint configuration
+**Table of Contents**
+-----------------
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* [Características](#características)
+* [Instalación](#instalacion)
+* [Uso](#uso)
+* [Detalles Ténicos](#detalles-técnicos)
+* [Licencia](#licencia)
+
+**Características**
+------------
+
+* Agregar, filtrar y eliminar gastos.
+* Genera automáticamente un ID único para cada gasto.
+* Almacena los gastos en LocalStorage para mantener la persistencia.
+* Interfaz de usuario simple e intuitiva.
+
+**Instalación**
+------------
+
+Para instalar la aplicación, ejecuta el siguiente comando en tu terminal:
+```bash
+npm install
+```
+**Uso**
+-----
+
+Para iniciar la aplicación, ejecuta el siguiente comando en tu terminal:
+```bash
+npm run dev
+```
+
+Esto iniciará el servidor de desarrollo y abrirá la aplicación en tu navegador predeterminado.
+
+**Detalles Ténicos**
+-------------------
+
+* Construida con React, React Hook Form y LocalStorage
+* Utiliza la biblioteca `uuid` para generar IDs únicos para cada gasto.
+* Almacena los gastos en LocalStorage para mantener la persistencia.
+* Usa React Hook Form para manejar la validación y el envío de formularios.
+
+**Licencia**
+-------
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)para más detalles.
+
+
+**Acknowledgments**
+----------------
+
+* [React](https://reactjs.org/)
+* [React Hook Form](https://react-hook-form.com/)
+* [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+* [uuid](https://www.npmjs.com/package/uuid)
+
+**Autor**
+--------
+
+Miguel Angel Meñaca Coral
+
+**Version**
+----------
+
+1.0.0
