@@ -24,7 +24,7 @@ export default function ExpenseSummary({
   function handleSearchItems(event) {
     console.log(event.target.value);
     const searchTerm = event.target.value.toLowerCase();
-    const filteredItems = items.filter((item) => item.description.toLowerCase().includes(searchTerm));
+    const filteredItems = items.filter((item) => item.description.toLowerCase().includes(searchTerm) || item.amount.toString().includes(searchTerm));
     setItems(filteredItems);
     if (searchTerm === '') {
       const storedItems = localStorage.getItem("items");
