@@ -1,0 +1,42 @@
+Reto Técnico React JS – Mini Expense Tracker 
+
+Objetivo general.
+
+Desarrollar una aplicación web en React JS que permite registrar y gestionar 
+gastos personales de manera sencilla. 
+
+Funcionalidades obligatorias :
+
+1. Agregar gasto. ✅
+    ○ Formulario con dos campos: 
+        ■ Descripción (texto corto)  ✅
+        ■ Monto (valor numérico positivo) ✅
+    ○ Al enviar el formulario el gasto se añade a la lista y el formulario se limpia. ✅
+
+2. Listar gastos 
+    ○ Muestra cada gasto con su descripción y monto. ✅
+    ○ Cada elemento debe incluir un identificador único (puede ser crypto.randomUUID() o similar). ✅
+
+3. Eliminar gasto 
+    ○ Botón ✕ para eliminar un gasto de la lista. ✅
+
+4. Resumen total 
+    ○ Visualiza la suma total de los montos registrados, actualizándose en tiempo real. ✅
+
+5. Estado vacío ○ Cuando no existan gastos, se debe mostrar el mensaje: “Sin gastos registrados” ✅
+
+Requisitos técnicos :
+    ● Framework: React 18+ (Create-React-App o Vite). ✅
+    ● Estado: useState para almacenar el array de gastos. ✅
+    ● Componentes mínimos: 
+        1. ExpenseInput – Formulario de alta. ✅
+        2. ExpenseSummary – Total gastado. ✅
+        3. ExpenseList – Lista de gastos. ✅
+        4. ExpenseItem – Ítem individual con botón de eliminación. ✅
+    ● Estilos: libres (CSS puro, Tailwind, etc.). 
+    ● Sin backend: la aplicación funciona completamente en el navegador. 
+
+Bonus (opcional, suma puntos extra) 
+    ● Persistir los gastos en localStorage para mantenerlos tras recargar. ✅
+    ● Validar y formatear los montos con Intl.NumberFormat. ✅
+    ● Filtros “Todos / Mayores a $X / Últimos 7 días”. ✅
